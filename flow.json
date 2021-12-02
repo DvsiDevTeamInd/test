@@ -28,11 +28,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 380,
-        "y": 80,
+        "x": 340,
+        "y": 120,
         "wires": [
             [
-                "e4551b9de75e4a8b"
+                "f15184aec6eaf50d"
             ]
         ]
     },
@@ -51,5 +51,24 @@
         "x": 730,
         "y": 240,
         "wires": []
+    },
+    {
+        "id": "f15184aec6eaf50d",
+        "type": "function",
+        "z": "6b45514309f1f2db",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "e4551b9de75e4a8b"
+            ]
+        ]
     }
 ]
