@@ -1,0 +1,12 @@
+{
+    "name": "BDC9_10TH",
+    "description": "10th Floor NDI server",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flow.json",
+            "credentialsFile": "flow_cred.json"
+        }
+    }
+}
